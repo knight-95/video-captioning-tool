@@ -33,4 +33,4 @@ A simple web application that allows users to add captions to videos by entering
 git clone https://github.com/knight-95/video-captioning-tool.git
 cd video-captioning-tool
 npm install
-npm start
+npm run dev
