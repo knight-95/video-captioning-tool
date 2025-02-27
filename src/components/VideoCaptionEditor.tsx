@@ -39,7 +39,7 @@ const VideoCaptionEditor: React.FC = () => {
             <input
                 type="text"
                 placeholder="Enter video URL"
-                className="w-96 p-2 mb-4 border-2 border-white rounded text-blue"
+                className="w-96 p-2 mb-4 border-2 border-white rounded text-black placeholder-white placeholder:font-bold"
                 value={videoUrl}
                 onChange={(e) => setVideoUrl(e.target.value)}
             />
@@ -84,7 +84,6 @@ const VideoCaptionEditor: React.FC = () => {
                         setPlaybackRate={setPlaybackRate}
                     />
 
-
                     {/* Captions Row */}
                     <div className="mt-3 text-xl font-semibold text-white bg-transparent px-4 py-2 rounded-lg text-center w-auto max-w-[640px] min-h-[5rem] flex items-center justify-center">
                         {captions.find((cap) => Math.abs(cap.time - currentTime) < 1)?.text || ""}
@@ -97,17 +96,18 @@ const VideoCaptionEditor: React.FC = () => {
                 <input
                     type="text"
                     placeholder="Enter Caption"
-                    className="w-80 p-2 border-2 border-white rounded"
+                    className="w-80 p-2 border-2 border-white rounded text-black placeholder-white placeholder:font-bold"
                     value={newCaption}
                     onChange={(e) => setNewCaption(e.target.value)}
                 />
                 <input
                     type="number"
                     placeholder="Timestamp (sec)"
-                    className="w-40 p-2 border-2 border-white rounded"
+                    className="w-40 p-2 border-2 border-white rounded text-black placeholder-white placeholder:font-bold"
                     value={timestamp}
                     onChange={(e) => setTimestamp(Math.max(0, Number(e.target.value)).toString())}
                 />
+
                 <button
                     type="button"
                     onClick={() => addCaption(captions, setCaptions, newCaption, timestamp, setNewCaption, setTimestamp)}
