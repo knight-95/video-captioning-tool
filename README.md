@@ -8,6 +8,8 @@ A simple web application that allows users to add captions to videos by entering
 ✅ Upload `.srt` files to import captions.  
 ✅ Display captions dynamically on the video.  
 ✅ Play/Pause video controls.  
+✅ Volume Control (Mute/Unmute + Slider) 
+✅ Speed Control (0.5x - 2x)
 
 ## 📌 Requirements  
 - Allow the user to enter a URL to a hosted video.  
