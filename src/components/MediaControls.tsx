@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaTachometerAlt } from "react-icons/fa";
+import { FaPause, FaPlay, FaTachometerAlt, FaVolumeMute, FaVolumeUp } from "react-icons/fa";
 
 interface MediaControlsProps {
     playing: boolean;

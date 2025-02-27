@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
-import GlassMorphism from "./GlassMorphism";
 import { addCaption, Caption } from "../utils/captions";
 import { handleFileUpload } from "../utils/srtParser";
-import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaTachometerAlt } from "react-icons/fa";
+import GlassMorphism from "./GlassMorphism";
 import MediaControls from "./MediaControls";
 
 const VideoCaptionEditor: React.FC = () => {
