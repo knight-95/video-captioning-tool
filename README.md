@@ -1,6 +1,8 @@
 # 🎬 Video Captioning Tool  
-A simple web application that allows users to add captions to videos by entering timestamps and text or uploading `.srt` files.  
+### A simple web application that allows users to add captions to videos by entering timestamps and text or uploading `.srt` files.  
 
+### Application Deployed Link: https://video-captioning-tool-yg.vercel.app/
+### YouTube Deployed Link : https://youtu.be/7SaTs8IouT8
 
 <img width="1470" alt="Screenshot 2025-02-27 at 7 58 30 PM" src="https://github.com/user-attachments/assets/aa7b888a-b627-438c-87e9-e0896a29ff48" />
 
